@@ -1,5 +1,3 @@
-alert("Script loaded successfully!");
-
 let brokenButton = document.getElementById("buttonNonExistentSite");
 brokenButton.addEventListener("click", errorOnSiteButton);
 
