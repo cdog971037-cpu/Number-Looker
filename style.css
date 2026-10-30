@@ -14,7 +14,7 @@ p {
   text-align: center;
 }
 
-.button-container {
+button {
   display: flex;
   justify-content: center;     
 }
