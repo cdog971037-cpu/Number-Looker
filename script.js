@@ -1,6 +1,6 @@
 let brokenButton = document.getElementById("buttonNonExistentSite");
-brokenButton.addEventListener("click", brokenButton);
+brokenButton.addEventListener("click", errorOnSiteButton);
 
-function brokenButton(){
+function errorOnSiteButton(){
     alert("TypeError: Failed to construct 'URL': Invalid URL\nReloading site");
 }
