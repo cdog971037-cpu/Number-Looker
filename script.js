@@ -4,7 +4,7 @@ brokenButton.addEventListener("click", errorOnSiteButton);
 function errorOnSiteButton() {
     if (navigator.userAgent.includes("Firefox")) {
         alert(`TypeError: URL constructor: 'NEM0NTU0NEQ0NTRGNTU1NA==' is not a valid URL.
-                processData@http://localhost:3000/app.js:24:17
+                processData@http://localhost:3000/script.js:4:12
                 onclick@http://localhost:3000/index.html:12:5
     Reloading site`);
     } else {
@@ -12,5 +12,6 @@ function errorOnSiteButton() {
                  at processData (script.js:4:12)
                  at HTMLButtonElement.onclick (index.html:12:5)
         Reloading site`);
+    }
     window.location.reload();
 }
