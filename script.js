@@ -1,4 +1,4 @@
-let brokenButton = document.getElementById("button");
+let brokenButton = document.getElementById("buttonNonExistentSite");
 brokenButton.addEventListener("click", brokenButton);
 
 function brokenButton(){
